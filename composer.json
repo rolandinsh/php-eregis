@@ -1,16 +1,16 @@
 {
-    "name": "derrabus/ereg-shim",
+    "name": "rolandinsh/php-eregis",
     "description": "Replacement for the ereg legacy php extension.",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Rabus\\EregShim\\": "src"
+            "Republa\\EregShim\\": "src"
         },
         "files": [ "src/bootstrap.php" ]
     },
     "autoload-dev": {
         "psr-4": {
-            "Rabus\\EregShim\\": "tests"
+            "Republa\\EregShim\\": "tests"
         }
     },
     "require": {
@@ -24,6 +24,10 @@
         {
             "name": "Alexander M. Turek",
             "email": "me@derrabus.de"
+        },
+        {
+            "name": "Rolands Umbrovskis",
+            "email": "info@simplemediacode.com"
         }
     ],
     "config": {
