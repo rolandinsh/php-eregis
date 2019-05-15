@@ -9,7 +9,7 @@ regular expressions.
 ## Requirements and Usage
 
 The library requires php 5.3 or newer. To add it to your projects, simply add
-`derrabus/ereg-shim` to your composer dependencies.
+`rolandinsh/php-eregis` to your composer dependencies.
 
 ```
 composer require rolandinsh/php-eregis
