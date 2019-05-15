@@ -1,8 +1,8 @@
 <?php
 
-namespace Rabus\EregShim;
+namespace Republa\EregShim;
 
-final class Ereg
+class Eregis
 {
     public static function ereg($pattern, $string, &$regs = null)
     {
