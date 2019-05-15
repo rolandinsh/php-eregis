@@ -1,6 +1,6 @@
 <?php
 
-use Rabus\EregShim\Ereg as s;
+use Republa\EregShim\Eregis as s;
 
 if (!function_exists('ereg')) {
     function ereg($pattern, $string, &$regs = null)
