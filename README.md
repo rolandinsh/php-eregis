@@ -1,4 +1,4 @@
-# php ereg(i) fot PHP 7.3
+# php ereg(i) cenverted for PHP 7.3
 
 based on https://github.com/derrabus/php-ereg-shim 
 
