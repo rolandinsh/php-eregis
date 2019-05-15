@@ -1,6 +1,6 @@
-# php ereg shim
+# php ereg(i)
 
-[![Build Status](https://travis-ci.org/derrabus/php-ereg-shim.svg?branch=master)](https://travis-ci.org/derrabus/php-ereg-shim)
+based on https://github.com/derrabus/php-ereg-shim 
 
 This package emulates the old php extension for POSIX regular expressions
 (ereg) if it's not available. Internally, the PCRE extension is used to process
@@ -12,7 +12,7 @@ The library requires php 5.3 or newer. To add it to your projects, simply add
 `derrabus/ereg-shim` to your composer dependencies.
 
 ```
-composer require derrabus/ereg-shim
+composer require rolandinsh/php-eregis
 ```
 
 This should auto-register the shim for you. However, it remains inactive as
@@ -20,11 +20,11 @@ long as the ereg extension is active. It should be safe to include it in
 projects that should be tested on php 5 and php 7 simultaneously.
 
 You can also force the usage of the shim implementation on php 5 by directly
-calling the corresponding methods on the `Rabus\EregShim\Ereg` class.
+calling the corresponding methods on the `Republa\EregShim\Ereg` class.
 
 Global function call        | Forced shimmed function call
 --------------------------- | -------------------------------------------------
-`ereg('[0-9][^0-9]', '2a')` | `\Rabus\EregShim\Ereg::ereg('[0-9][^0-9]', '2a')`
+`ereg('[0-9][^0-9]', '2a')` | `\Republa\EregShim\Ereg::ereg('[0-9][^0-9]', '2a')`
 
 ## Purpose and limitations
 
