@@ -6,6 +6,8 @@ This package emulates the old php extension for POSIX regular expressions
 (ereg) if it's not available. Internally, the PCRE extension is used to process
 regular expressions.
 
+## tests are broken for now!!!!
+
 ## Requirements and Usage
 
 The library requires php 5.3 or newer. To add it to your projects, simply add
